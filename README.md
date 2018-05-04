@@ -1,5 +1,8 @@
 # README
 
+## Implement AJAX
+ * Adding a product updates the cart total on the products index page without refreshing the page
+
 ## Current Errors/bugs
 
 
