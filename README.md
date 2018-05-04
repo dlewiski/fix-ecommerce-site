@@ -3,7 +3,12 @@
 ## Implement AJAX
  * Adding a product updates the cart total on the products index page without refreshing the page
 
+## Additional features
+* Ensure that users can't order a negative number of items.
+
 ## Current Errors/bugs
+
+
 
 
 
