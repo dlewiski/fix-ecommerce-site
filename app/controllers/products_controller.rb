@@ -5,10 +5,6 @@ class ProductsController < ApplicationController
     sleep 2
     @products = Product.all
     @order_item = current_order.order_items.new
-    respond_to do |format|
-      format.html { redirect_to products_path}
-      format.js
-    end
   end
 
   def new
