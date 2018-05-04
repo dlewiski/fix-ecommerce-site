@@ -5,6 +5,7 @@
 
 ## Additional features
 * Ensure that users can't order a negative number of items.
+* Add flash messages for signing up, signing in and signing out.
 
 ## Current Errors/bugs
 
