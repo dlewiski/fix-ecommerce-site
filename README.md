@@ -6,8 +6,15 @@
 ## Additional features
 * Ensure that users can't order a negative number of items.
 * Add flash messages for signing up, signing in and signing out.
+* Allow other than whole dollar amounts for admin product creation (for instance, 3.99).
+
+* Add product validations.
+* Add Stripe so users can pay when finalizing orders.
+* Add password validations to ensure a user's password is sufficiently complex.
+* Fix the row height for products, which can quickly become uneven.
 
 ## Current Errors/bugs
+* The add new product form was mis labeled, changed "password" to "price"
 
 
 

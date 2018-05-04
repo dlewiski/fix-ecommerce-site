@@ -1,4 +1,7 @@
 <h3>Products</h3>
+<% if admin %>
+  <h4><%= link_to "Add a product to the list", new_product_path %></h4>
+<% end %>
 
 <div class="row">
   <div class="section">
@@ -14,6 +17,7 @@
         <%= f.number_field :quantity, input_html: { min: 0 }, required: true %>
         <span class="waves-effect waves-light btn"><%= f.submit "Add to cart" %></span>
       <% end %>
+      <h5><%= link_to "Delete Product", product_path(product), :data => {:confirm => "You sure?", :method => "delete"} %></h5>
     </div>
   <% end %>
 </div>
