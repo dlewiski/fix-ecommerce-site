@@ -7,7 +7,7 @@ class OrderItemsController < ApplicationController
     session[:order_id] = @order.id
     respond_to do |format|
       format.html { redirect_to products_path }
-      format.js { render :file => "layouts/create.js.erb" }
+      format.js { render :file => "layouts/cart_total.js.erb" }
     end
   end
 
