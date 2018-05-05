@@ -7,6 +7,7 @@
 * Ensure that users can't order a negative number of items.
 * Add flash messages for signing up, signing in and signing out.
 * Allow other than whole dollar amounts for admin product creation (for instance, 3.99).
+* Add product update and delete functionality for admins.
 
 * Add product validations.
 * Add Stripe so users can pay when finalizing orders.
